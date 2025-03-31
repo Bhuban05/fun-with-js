@@ -10,7 +10,7 @@
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: gray;
+    background: white;
   }
   ::selection{
     color: #fff;
@@ -19,7 +19,7 @@
   .wrapper{
     width: 770px;
     padding: 35px;
-    background: green;
+    background: gray;
     border-radius: 10px;
     box-shadow: 0 10px 15px rgba(0,0,0,0.05);
   }
@@ -50,12 +50,11 @@
     position: relative;
   }
   .typing-text p span.correct{
-    color: #56964f;
+    color: green;
   }
   .typing-text p span.incorrect{
     color: #cb3439;
-    outline: 1px solid #fff;
-    background: #ffc0cb;
+ 
     border-radius: 4px;
   }
   .typing-text p span.active{
